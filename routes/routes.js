@@ -4,9 +4,11 @@ import { router as fighterRoutes } from "./fighterRoutes.js";
 import { router as fightRoutes } from "./fightRoutes.js";
 
 const initRoutes = (app) => {
+  //Реєстрація
   app.use("/api/users", userRoutes);
   app.use("/api/fighters", fighterRoutes);
   app.use("/api/fights", fightRoutes);
+  //Логін
   app.use("/api/auth", authRoutes);
 };
 
