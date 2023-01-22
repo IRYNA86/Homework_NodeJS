@@ -14,7 +14,7 @@ initRoutes(app);
 
 app.use("/", express.static("./client/build"));
 
-app.post(initRoutes.authRoutes, (req, res) => {console.log(req.body); res.json({success: true})})
+
 
 const port = 3050;
 app.listen(port, () => {});

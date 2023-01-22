@@ -13,3 +13,4 @@ const initRoutes = (app) => {
 };
 
 export { initRoutes };
+

@@ -1,5 +1,68 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": "4f01f2af-2128-4d66-b0bf-6774b3ca2551",
+      "createdAt": "2023-01-22T20:23:20.007Z"
+    },
+    {
+      "email": "qwert@gmail.com",
+      "password": "123456",
+      "firstName": "anna",
+      "lastName": "anna",
+      "phoneNumber": "+380447896321",
+      "id": "e9242882-0bcb-415c-b986-0b20a2a87973",
+      "createdAt": "2023-01-22T20:25:22.622Z"
+    },
+    {
+      "email": "qwert@gmail.com",
+      "password": "123456",
+      "firstName": "anna",
+      "lastName": "anna",
+      "phoneNumber": "+380447896321",
+      "id": "11fbe482-0fe6-48d2-8cf4-2cecab19c438",
+      "createdAt": "2023-01-22T20:26:15.886Z"
+    },
+    {
+      "id": "ba9c079e-721e-498c-bbc2-f1c28476f7e3",
+      "createdAt": "2023-01-22T20:28:21.909Z"
+    },
+    {
+      "email": "qwerty@gmail.com",
+      "password": "123456",
+      "firstName": "anna",
+      "lastName": "anna",
+      "phoneNumber": "+380447896321",
+      "id": "f8eee27d-b6ec-4b61-911d-aaffd2236d30",
+      "createdAt": "2023-01-22T20:30:53.162Z"
+    },
+    {
+      "email": "123rty@gmail.com",
+      "password": "415263",
+      "firstName": "anna1",
+      "lastName": "anna1",
+      "phoneNumber": "+380789123236",
+      "id": "b92c6634-41ca-4935-af4b-aa067e1e11f3",
+      "createdAt": "2023-01-22T20:32:54.891Z"
+    },
+    {
+      "email": "1q2w3e@gmail.com",
+      "password": "987412",
+      "firstName": "aaaa",
+      "lastName": "aaaaa",
+      "phoneNumber": "+380449845623",
+      "id": "0008a7c4-ea6b-43b0-9b92-b0c9f8f34979",
+      "createdAt": "2023-01-22T20:50:45.110Z"
+    },
+    {
+      "email": "1q2w3e@gmail.com",
+      "password": "987412",
+      "firstName": "aaaa",
+      "lastName": "aaaaa",
+      "phoneNumber": "+380449845623",
+      "id": "ed5bf17d-1df9-4b99-8581-bbe36a693b4f",
+      "createdAt": "2023-01-22T20:51:39.245Z"
+    }
+  ],
   "fighters": [],
   "fights": []
 }

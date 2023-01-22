@@ -26,9 +26,9 @@ class BaseRepository {
     return list.find((it) => it.id === data.id);
   }
 
-  update(id, dataToUpdate) {
-    dataToUpdate.updatedAt = new Date();
-    return this.dbContext.find({ id }).assign(dataToUpdate).write();
+  update(id, data) {
+    data.updatedAt = new Date();
+    return this.dbContext.find({ id }).assign(data).write();
   }
 
   delete(id) {

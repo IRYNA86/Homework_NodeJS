@@ -4,19 +4,21 @@ import { responseMiddleware } from "../middlewares/response.middleware.js";
 
 const router = Router();
 
-router.post(
-  "/login",
-  (req, res, next) => {
-    try {
-      // TODO: Implement login action (get the user if it exist with entered credentials)
-      res.data = data;
-    } catch (err) {
-      res.err = err;
-    } finally {
-      next();
-    }
-  },
-  responseMiddleware
-);
+router.post('/login', (req, res, next) => {
+	try {
+         const data ={
+         	email: req.body.email,
+         	password: req.body.password
+         };
+         const user = authService.login(data);
+        //res.data = data;
+        res.send(user)
+     } catch (err) {
+         res.status(400).send(err.message)
+     } finally {
+         next();
+     }
+
+}, responseMiddleware);
 
 export { router };

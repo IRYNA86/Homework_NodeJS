@@ -14,3 +14,4 @@ const DEFAULT_DB = { users: [], fighters: [], fights: [] };
 dbAdapter.defaults(DEFAULT_DB).write();
 
 export { dbAdapter };
+
