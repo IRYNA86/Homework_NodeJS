@@ -42,6 +42,13 @@
       "defense": 3,
       "id": "4ce712e2-fd76-41ff-a542-46dad6d02981",
       "createdAt": "2023-01-23T12:46:40.089Z"
+    },
+    {
+      "name": "1fff",
+      "power": 4,
+      "defense": 4,
+      "id": "2ad132c3-d441-4544-8c5f-9764c73d02a7",
+      "createdAt": "2023-01-23T13:32:58.499Z"
     }
   ],
   "fights": []
