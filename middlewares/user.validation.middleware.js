@@ -1,22 +1,17 @@
 import { user } from "../models/user.js";
 
-const createUserValid = (req, res, next) => {
-  // TODO: Implement validatior for user entity during creation
-  //ok   
+const createUserValid = (req, res, next) => {  
   const error = validUser({...req.body}, user);
-  const isNotExistEmail = true; // validate later
+  const isNotExistEmail = true;
   error.message += isNotExistEmail ? '' : ' Email already exіsts';
   if (!error.error && isNotExistEmail) {
       next()
   } else {
       res.status(401).send(JSON.stringify(error));
   }
-
 }
 
 const updateUserValid = (req, res, next) => {
-  // TODO: Implement validatior for user entity during update
-  //ok
   const error = validUser(req.body, user);
   if (!error.error) {
       next()
@@ -24,7 +19,6 @@ const updateUserValid = (req, res, next) => {
       res.status(401).send(JSON.stringify(error));
   }
 }
-
 
 const validUser = (reqBody, modelUser) => {
   const error = {
@@ -63,11 +57,10 @@ const validUser = (reqBody, modelUser) => {
           }
       } else {
           error.error = true;
-          error.message = 'field dose not in model of User!'
+          error.message = 'field does not in model of User!'
           return error;
       }
   }
-  
   return error;
 }
 

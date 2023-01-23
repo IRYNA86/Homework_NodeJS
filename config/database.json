@@ -1,32 +1,6 @@
 {
   "users": [
     {
-      "id": "4f01f2af-2128-4d66-b0bf-6774b3ca2551",
-      "createdAt": "2023-01-22T20:23:20.007Z"
-    },
-    {
-      "email": "qwert@gmail.com",
-      "password": "123456",
-      "firstName": "anna",
-      "lastName": "anna",
-      "phoneNumber": "+380447896321",
-      "id": "e9242882-0bcb-415c-b986-0b20a2a87973",
-      "createdAt": "2023-01-22T20:25:22.622Z"
-    },
-    {
-      "email": "qwert@gmail.com",
-      "password": "123456",
-      "firstName": "anna",
-      "lastName": "anna",
-      "phoneNumber": "+380447896321",
-      "id": "11fbe482-0fe6-48d2-8cf4-2cecab19c438",
-      "createdAt": "2023-01-22T20:26:15.886Z"
-    },
-    {
-      "id": "ba9c079e-721e-498c-bbc2-f1c28476f7e3",
-      "createdAt": "2023-01-22T20:28:21.909Z"
-    },
-    {
       "email": "qwerty@gmail.com",
       "password": "123456",
       "firstName": "anna",
@@ -52,17 +26,23 @@
       "phoneNumber": "+380449845623",
       "id": "0008a7c4-ea6b-43b0-9b92-b0c9f8f34979",
       "createdAt": "2023-01-22T20:50:45.110Z"
-    },
-    {
-      "email": "1q2w3e@gmail.com",
-      "password": "987412",
-      "firstName": "aaaa",
-      "lastName": "aaaaa",
-      "phoneNumber": "+380449845623",
-      "id": "ed5bf17d-1df9-4b99-8581-bbe36a693b4f",
-      "createdAt": "2023-01-22T20:51:39.245Z"
     }
   ],
-  "fighters": [],
+  "fighters": [
+    {
+      "name": "1fff",
+      "power": 3,
+      "defense": 3,
+      "id": "d4499002-99d8-4a92-b03a-86ae9295ada5",
+      "createdAt": "2023-01-23T12:45:06.729Z"
+    },
+    {
+      "name": "1fff",
+      "power": 3,
+      "defense": 3,
+      "id": "4ce712e2-fd76-41ff-a542-46dad6d02981",
+      "createdAt": "2023-01-23T12:46:40.089Z"
+    }
+  ],
   "fights": []
 }
